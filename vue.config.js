@@ -1,7 +1,7 @@
 module.exports = {
     publicPath:
         process.env.NODE_ENV === "production"
-            ? "/ii/android-webinstall"
+            ? "android-webinstall"
             : "/",
     transpileDependencies: ["vuetify"],
     chainWebpack: (config) => {
